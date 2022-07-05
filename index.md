@@ -1,19 +1,18 @@
 # RAVE Source Separation with DSD100/MUSDB18 Sound Examples
 
 This site contains a couple of sound examples of the song "Water Duct" by Ava Luna. 
-The song is from the test set (songs from MUSDB18 not included in DSD100)l, chosen because of the intro with a clear bass and drums and later on changing up the beat.
+The song is from the test set (songs from MUSDB18 not included in DSD100)l, chosen because of the intro with a clear bass and drums alongside some variation in rhythm later in the song. The modified model is with regularization strength γ=10.
 
 ## Original and Reconstruction
 The original song in Mono and 16 kHz (since the RAVE model was trained at 16 kHz), alongside the modified model reconstruction and the unmodified model reconstruction (which has trained only on full mixes).
 
-[Original Mono](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Original Mono](/Mixture-mono.mp3?raw=true)
 
-[Original Mono 16 kHz](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Original Mono 16 kHz](/Mixture-mono-16k.mp3?raw=true)
 
-[Modified Model Reconstruction](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Modified Model Reconstruction](/MOD_STRONG_RECON.mp3?raw=true)
 
-
-[Unmodified Model Reconstruction](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Unmodified Model Reconstruction](/ORIGINAL_RAVE_RECON.mp3?raw=true)
 
 
 ## Source Separation
@@ -21,13 +20,13 @@ The original song in Mono and 16 kHz (since the RAVE model was trained at 16 kHz
 The full mix is input to the modified model and all partitions except one is replaced with encoded silence.
 The high-variance dimensions are left intact.
 
-[Partition 0 (Other)](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Partition 0 (Other)](/MOD_ONLY_ONE_PARTITION_part0_mixture.mp3?raw=true)
 
-[Partition 1 (Vocals)](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Partition 1 (Vocals)](/MOD_ONLY_ONE_PARTITION_part1_mixture.mp3?raw=true)
 
-[Partition 2 (Drums)](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Partition 2 (Drums)](/MOD_ONLY_ONE_PARTITION_part2_mixture.mp3?raw=true)
 
-[Partition 3 (Bass)](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Partition 3 (Bass)](/MOD_ONLY_ONE_PARTITION_part3_mixture.mp3?raw=true)
 
 
 ## High Variance Dimension Examples
@@ -37,42 +36,44 @@ These are some examples of these dimensions being offset, set, amplified and inv
 
 ### Dim 33
 
+[Amplified 3.0](/MOD_STRONG_RECON_DIM33_attenuvert_3.0.mp3?raw=true)
+
+[Inverted/Amplified -3.0](/MOD_STRONG_RECON_DIM33_attenuvert_-3.0.mp3?raw=true)
+
+[Offset 2.0](/MOD_STRONG_RECON_DIM33_offet_2.0.mp3?raw=true)
+
+[Offset -2.0)](/MOD_STRONG_RECON_DIM33_offet_-2.0.mp3?raw=true)
+
+[Set 1.0](/MOD_STRONG_RECON_DIM33_set_1.0.mp3?raw=true)
+
+[Set -1.0](/MOD_STRONG_RECON_DIM33_set_-1.0.mp3?raw=true)
+
+
 ### Dim 42
+
+[Amplified 3.0](/MOD_STRONG_RECON_DIM42_attenuvert_3.0.mp3?raw=true)
+
+[Inverted/Amplified -3.0](/MOD_STRONG_RECON_DIM42_attenuvert_-3.0.mp3?raw=true)
+
+[Offset 2.0](/MOD_STRONG_RECON_DIM42_offet_2.0.mp3?raw=true)
+
+[Offset -2.0)](/MOD_STRONG_RECON_DIM42_offet_-2.0.mp3?raw=true)
+
+[Set 1.0](/MOD_STRONG_RECON_DIM42_set_1.0.mp3?raw=true)
+
+[Set -1.0](/MOD_STRONG_RECON_DIM42_set_-1.0.mp3?raw=true)
 
 ### Dim 75
 
+[Amplified 3.0](/MOD_STRONG_RECON_DIM75_attenuvert_3.0.mp3?raw=true)
 
-## 
+[Inverted/Amplified -3.0](/MOD_STRONG_RECON_DIM75_attenuvert_-3.0.mp3?raw=true)
 
-[elephant](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Offset 2.0](/MOD_STRONG_RECON_DIM75_offet_2.0.mp3?raw=true)
 
- <iframe src="/ORIGINAL_RAVE_RECON.wav" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Offset -2.0)](/MOD_STRONG_RECON_DIM75_offet_-2.0.mp3?raw=true)
 
-```markdown
-Syntax highlighted code block
+[Set 1.0](/MOD_STRONG_RECON_DIM75_set_1.0.mp3?raw=true)
 
-# Header 1
-## Header 2
-### Header 3
+[Set -1.0](/MOD_STRONG_RECON_DIM75_set_-1.0.mp3?raw=true)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vidret/Embedding-Loss-Examples/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
