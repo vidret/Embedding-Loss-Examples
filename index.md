@@ -42,7 +42,7 @@ These are some examples of these dimensions being offset, set, amplified and inv
 
 [Offset 2.0](/MOD_STRONG_RECON_DIM33_offet_2.0.mp3?raw=true)
 
-[Offset -2.0)](/MOD_STRONG_RECON_DIM33_offet_-2.0.mp3?raw=true)
+[Offset -2.0](/MOD_STRONG_RECON_DIM33_offet_-2.0.mp3?raw=true)
 
 [Set 1.0](/MOD_STRONG_RECON_DIM33_set_1.0.mp3?raw=true)
 
@@ -57,7 +57,7 @@ These are some examples of these dimensions being offset, set, amplified and inv
 
 [Offset 2.0](/MOD_STRONG_RECON_DIM42_offet_2.0.mp3?raw=true)
 
-[Offset -2.0)](/MOD_STRONG_RECON_DIM42_offet_-2.0.mp3?raw=true)
+[Offset -2.0](/MOD_STRONG_RECON_DIM42_offet_-2.0.mp3?raw=true)
 
 [Set 1.0](/MOD_STRONG_RECON_DIM42_set_1.0.mp3?raw=true)
 
@@ -71,7 +71,7 @@ These are some examples of these dimensions being offset, set, amplified and inv
 
 [Offset 2.0](/MOD_STRONG_RECON_DIM75_offet_2.0.mp3?raw=true)
 
-[Offset -2.0)](/MOD_STRONG_RECON_DIM75_offet_-2.0.mp3?raw=true)
+[Offset -2.0](/MOD_STRONG_RECON_DIM75_offet_-2.0.mp3?raw=true)
 
 [Set 1.0](/MOD_STRONG_RECON_DIM75_set_1.0.mp3?raw=true)
 
