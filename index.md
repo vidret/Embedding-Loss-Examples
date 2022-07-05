@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-[elephant](/ORIGINAL_RAVE_RECON.wav)
+[elephant](/ORIGINAL_RAVE_RECON.wav?raw=true)
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
