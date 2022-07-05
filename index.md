@@ -1,10 +1,40 @@
-## Welcome to GitHub Pages
+# RAVE Source Separation with DSD100/MUSDB18 Sound Examples
 
-You can use the [editor on GitHub](https://github.com/vidret/Embedding-Loss-Examples/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This site contains a couple of sound examples of the song "Water Duct" by Ava Luna. 
+The song is from the test set (songs from MUSDB18 not included in DSD100)l, chosen because of the intro with a clear bass and drums and later on changing up the beat.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Original and Reconstruction
+The original song in Mono and 16 kHz (since the RAVE model was trained at 16 kHz):
+[Original Mono](/ORIGINAL_RAVE_RECON.wav?raw=true)
+[Original Mono 16 kHz](/ORIGINAL_RAVE_RECON.wav?raw=true)
 
-### Markdown
+
+
+[Modified Model Reconstruction](/ORIGINAL_RAVE_RECON.wav?raw=true)
+
+
+Unmodified Model Reconstruction (trained only on Full mixes): [Original Mono](/ORIGINAL_RAVE_RECON.wav?raw=true)
+
+
+## Source Separation
+
+The full mix is input to the modified model and all partitions except one is replaced with encoded silence.
+The high-variance dimensions are left intact.
+
+
+## High Variance Dimension Examples
+
+The modified model has three high-variance dimensions that do not conform with to the source partitions.
+These are some examples of these dimensions being offset, set, amplified and inverted.
+
+### Dim 33
+
+### Dim 42
+
+### Dim 75
+
+
+## 
 
 [elephant](/ORIGINAL_RAVE_RECON.wav?raw=true)
 
