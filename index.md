@@ -1,7 +1,7 @@
 # RAVE Source Separation with DSD100/MUSDB18 Sound Examples
 
 This site contains a couple of sound examples of the song "Water Duct" by Ava Luna. 
-The song is from the test set (songs from MUSDB18 not included in DSD100)l, chosen because of the intro with a clear bass and drums alongside some variation in rhythm later in the song. The modified model is with regularization strength γ=10.
+The song is from the test set (songs from MUSDB18 not included in DSD100), chosen because of the intro with a clear bass and drums alongside some variation in rhythm later in the song. The modified model is with regularization strength γ=10.
 
 ## Original and Reconstruction
 The original song in Mono and 16 kHz (since the RAVE model was trained at 16 kHz), alongside the modified model reconstruction and the unmodified model reconstruction (which has trained only on full mixes).
