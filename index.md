@@ -6,7 +6,7 @@ The song is from the test set (songs from MUSDB18 not included in DSD100)l, chos
 ## Original and Reconstruction
 The original song in Mono and 16 kHz (since the RAVE model was trained at 16 kHz), alongside the modified model reconstruction and the unmodified model reconstruction (which has trained only on full mixes).
 
-[Original Mono](/Mixture-mono.mp3?raw=true)
+[Original Mono](/Mixture-mono.mp3)
 
 [Original Mono 16 kHz](/Mixture-mono-16k.mp3?raw=true)
 
